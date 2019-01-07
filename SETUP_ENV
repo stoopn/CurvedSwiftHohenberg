@@ -1,0 +1,4 @@
+export PETSC_DIR=/scratch/libs/petsc-3.2-p5
+export PETSC_ARCH=arch-linux2-c-debug
+export PATH=/usr/lib64/openmpi/bin:$PATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/openmpi/lib:/scratch/libs/VTK_X64/lib/vtk-5.10/

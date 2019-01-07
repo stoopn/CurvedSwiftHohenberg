@@ -1,0 +1,14 @@
+Input_Mesh      = sphere_rad1.off
+dt              = 0.1
+penalty		= 100
+ploteach	= 50
+nsteps		= 10000
+ghosted		= false
+nrefine		= 1
+gamma2		= 1.0
+gamma0		= -2
+a		= 0.9
+b		= -1.0
+c		= 1.0
+datadir		= data_sphere_hex/
+meshscalefactor	= 55.2125
