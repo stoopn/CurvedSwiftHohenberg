@@ -1,0 +1,18 @@
+# Bilayer shells
+
+Implements the 4th order Swift-Hohenberg equation on arbitrary surfaces using C1 Loop subdivision surface finite elements. An much extended version of this code was used for 
+N. Stoop et al., Nature Materials 14, 337–342 (2015)
+
+Make sure you first set up all environment variables (SETUP_ENV) according to your system setup.
+
+Required libraries:
+- Libmesh (see my other repo for a customized version)
+- PETSc
+- VTK (to output results)
+
+The provided parameter file sh.in can be used as an example simulation file solving the Swift-Hohenbwerg equations on a spherical surface (as provided by mesh file sphere_rad1.off). Adapt to your liking!
+Compile, then run the code by invoking
+
+./biharmonic-opt
+
+The file will automatically read parameters from the sh.in input file.
